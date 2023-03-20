@@ -16,6 +16,10 @@ nav {
     font-weight: 520;
     margin-right: 52px;
   }
+  a:hover {
+    text-decoration: underline;
+    color: $anti-FlashWhite;
+  }
   .links {
     display: flex;
     align-items: center;
