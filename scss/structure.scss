@@ -15,4 +15,15 @@ h5,
 h6,
 p {
   margin-bottom: 16px;
+  //   font-family: serif;
+  font-family: sans-serif;
+}
+
+.wrapper {
+  width: $site-width;
+  margin: 0 auto;
+}
+#app {
+  min-height: $site-height;
+  margin: 0 auto;
 }

@@ -17,6 +17,17 @@ h5,
 h6,
 p {
   margin-bottom: 16px;
+  font-family: sans-serif;
+}
+
+.wrapper {
+  width: 1280px;
+  margin: 0 auto;
+}
+
+#app {
+  min-height: 800px;
+  margin: 0 auto;
 }
 
 /*# sourceMappingURL=styles.css.map */
