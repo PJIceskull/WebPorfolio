@@ -17,17 +17,59 @@ h5,
 h6,
 p {
   margin-bottom: 16px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a {
   font-family: sans-serif;
 }
 
 .wrapper {
-  width: 1280px;
+  max-width: 1280px;
+  min-height: 800px;
   margin: 0 auto;
+  background-color: aqua;
 }
 
 #app {
   min-height: 800px;
   margin: 0 auto;
+}
+
+nav {
+  max-width: 1280px;
+  height: 63px;
+  margin: 0 auto;
+  text-transform: uppercase;
+  background-color: #1c2321;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 50px;
+}
+nav a {
+  text-decoration: none;
+  font-weight: 520;
+  margin-right: 52px;
+}
+nav .links {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+nav p {
+  margin: 0;
+}
+
+nav,
+a {
+  color: #a9b4c2;
 }
 
 /*# sourceMappingURL=styles.css.map */

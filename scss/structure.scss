@@ -16,12 +16,24 @@ h6,
 p {
   margin-bottom: 16px;
   //   font-family: serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a {
   font-family: sans-serif;
 }
 
 .wrapper {
-  width: $site-width;
+  max-width: $site-width;
+  min-height: $site-height;
   margin: 0 auto;
+  background-color: aqua;
 }
 #app {
   min-height: $site-height;

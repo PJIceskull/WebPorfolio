@@ -1,0 +1,31 @@
+nav {
+  max-width: $site-width;
+  height: 63px;
+  margin: 0 auto;
+  text-transform: uppercase;
+  background-color: $eerieBlack;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 50px;
+  //   position: fixed; /* Set the navbar to fixed position */
+  //   top: 0; /* Position the navbar at the top of the page */
+  //   width: 100%; /* Full width */
+  a {
+    text-decoration: none;
+    font-weight: 520;
+    margin-right: 52px;
+  }
+  .links {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  p {
+    margin: 0;
+  }
+}
+nav,
+a {
+  color: $powderBlue;
+}
