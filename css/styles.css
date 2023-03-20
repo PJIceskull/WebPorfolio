@@ -72,4 +72,10 @@ a {
   color: #a9b4c2;
 }
 
+.Home-Wrap {
+  width: 1280px;
+  height: 100%;
+  background-color: burlywood;
+}
+
 /*# sourceMappingURL=styles.css.map */
