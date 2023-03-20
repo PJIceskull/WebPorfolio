@@ -1,5 +1,23 @@
 .Home-Wrap {
-  width: $site-width;
-  height: 100%;
+  max-width: $site-width;
+  height: $site-height;
   background-color: burlywood;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  .homeText,
+  .homeImg {
+    width: 50%;
+    height: 100%;
+  }
+  .homeText {
+    background-color: red;
+  }
+  .homeImg {
+    background-image: url(../img/profile_pic.JPEG);
+    background-size: cover;
+    background-position: bottom;
+    background-blend-mode: luminosity;
+    background-color: rgba($powderBlue, 0.6);
+  }
 }
