@@ -15,3 +15,23 @@
   background-size: 80px 80px;
   color: $anti-FlashWhite;
 }
+.aboutText {
+  background-color: $cadetGray;
+  width: 1280px;
+  padding: 50px;
+  h1 {
+    font-size: 100px;
+    font-family: FuturaBook;
+    margin-bottom: 10px;
+  }
+  hr {
+    width: 540px;
+    height: 10px;
+    background-color: $anti-FlashWhite;
+    border-style: none;
+    margin-bottom: 60px;
+  }
+  p {
+    font-size: 36px;
+  }
+}
