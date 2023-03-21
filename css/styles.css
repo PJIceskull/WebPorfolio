@@ -86,6 +86,7 @@ nav a {
   text-decoration: none;
   font-weight: 520;
   margin-right: 52px;
+  transition-duration: 0.3s;
 }
 nav a:hover {
   text-decoration: underline;
