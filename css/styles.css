@@ -226,4 +226,10 @@ button a {
   background-image: linear-gradient(#7d98a1, #1c2321);
 }
 
+#Work-Section {
+  background-color: #1c2321;
+  min-height: 800px;
+  max-width: 1280px;
+}
+
 /*# sourceMappingURL=styles.css.map */
