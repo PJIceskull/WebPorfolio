@@ -9,10 +9,14 @@
   .homeImg {
     width: 50%;
     height: 100%;
+    // max-width: 640px;
+    // height: 800px;
   }
   .homeText {
     background-color: $eerieBlack;
     font-family: Helvetica;
+    // padding-left: 80px;
+    // padding-right: 75px;
     h1,
     h3 {
       color: $cadetGray;
@@ -24,17 +28,24 @@
     h1 {
       font-size: 75px;
       font-family: FuturaExtraBlack;
+      margin: 0 65px 10px 85px;
     }
     h2 {
+      // width: 40px;
       font-size: 30px;
       font-family: FuturaMedium;
+      margin: 83px 70px 0 85px;
     }
     h3 {
       font-size: 30px;
       font-family: FuturaBook;
+      margin-left: 89px;
+      margin-right: 99px;
     }
     p {
       font-size: 30px;
+      max-width: 455px;
+      margin: 30px 92px;
     }
   }
   .homeImg {
