@@ -124,8 +124,7 @@ button a {
   height: 68px;
   font-size: 26px;
   font-weight: bold;
-  margin-left: 205px;
-  margin-right: 204px;
+  margin: 0 204px 160px 205px;
 }
 .contactDark:hover {
   background-color: #eef1ef;
@@ -137,17 +136,14 @@ button a {
 
 #Home-Section {
   max-width: 1280px;
-  height: 800px;
+  min-height: 800px;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
-#Home-Section .homeText,
-#Home-Section .homeImg {
-  width: 50%;
-  height: 100%;
-}
 #Home-Section .homeText {
+  width: 50%;
+  min-height: 800px;
   background-color: #1c2321;
   font-family: Helvetica;
 }
@@ -179,12 +175,15 @@ button a {
   font-size: 27px;
   margin: 40px 92px;
 }
-#Home-Section .homeImg {
+
+.homeImg {
+  min-height: 800px;
+  width: 50%;
   background-image: url(../img/profile_pic.JPEG);
   background-size: cover;
   background-position: bottom;
   background-blend-mode: luminosity;
-  background-color: rgba(169, 180, 194, 0.6);
+  background-color: #a9b4c2;
 }
 
 #About-Section {
