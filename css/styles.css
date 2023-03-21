@@ -188,9 +188,10 @@ button a {
 }
 
 #About-Section {
-  background-color: aquamarine;
   height: 800px;
   width: 1280px;
+  background-image: linear-gradient(0deg, #1c2321 25%, #7d98a1 25%, #7d98a1 50%, #1c2321 50%, #1c2321 75%, #7d98a1 75%, #7d98a1 100%);
+  background-size: 80px 80px;
 }
 
 /*# sourceMappingURL=styles.css.map */
