@@ -80,6 +80,32 @@ a {
   color: #a9b4c2;
 }
 
+button {
+  text-transform: uppercase;
+  color: #eef1ef;
+  border: 5px solid #eef1ef;
+  transition-duration: 0.6s;
+}
+button a {
+  color: #eef1ef;
+  text-decoration: none;
+}
+
+.contactDark {
+  background-color: #1c2321;
+  width: 230px;
+  height: 68px;
+  font-size: 26px;
+  font-weight: bold;
+}
+.contactDark:hover {
+  background-color: #eef1ef;
+  color: #1c2321;
+}
+.contactDark:hover a {
+  color: #1c2321;
+}
+
 .Home-Wrap {
   max-width: 1280px;
   height: 800px;
