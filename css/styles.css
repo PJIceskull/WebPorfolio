@@ -162,7 +162,7 @@ button a {
 .Home-Wrap .homeText h1 {
   font-size: 75px;
   font-family: FuturaExtraBlack;
-  margin: 0 65px 10px 85px;
+  margin: 10px 65px 10px 85px;
 }
 .Home-Wrap .homeText h2 {
   font-size: 30px;
@@ -176,9 +176,8 @@ button a {
   margin-right: 99px;
 }
 .Home-Wrap .homeText p {
-  font-size: 30px;
-  max-width: 455px;
-  margin: 30px 92px;
+  font-size: 27px;
+  margin: 40px 92px;
 }
 .Home-Wrap .homeImg {
   background-image: url(../img/profile_pic.JPEG);
