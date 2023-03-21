@@ -194,24 +194,24 @@ button a {
   color: #eef1ef;
 }
 
-.aboutText {
+.aboutTitle {
   background-color: #7d98a1;
   width: 1280px;
   padding: 50px;
 }
-.aboutText h1 {
+.aboutTitle h1 {
   font-size: 100px;
   font-family: FuturaBook;
   margin-bottom: 10px;
 }
-.aboutText hr {
+.aboutTitle hr {
   width: 540px;
   height: 10px;
   background-color: #eef1ef;
   border-style: none;
   margin-bottom: 60px;
 }
-.aboutText p {
+.aboutTitle p {
   font-size: 36px;
 }
 
