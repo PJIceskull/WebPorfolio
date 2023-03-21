@@ -187,7 +187,7 @@ button a {
 }
 
 #About-Section {
-  height: 800px;
+  min-height: 800px;
   max-width: 1280px;
   background-image: linear-gradient(0deg, #1c2321 25%, #7d98a1 25%, #7d98a1 50%, #1c2321 50%, #1c2321 75%, #7d98a1 75%, #7d98a1 100%);
   background-size: 80px 80px;
@@ -218,6 +218,12 @@ button a {
 }
 .aboutText-Body p {
   font-size: 36px;
+}
+
+.AboutGradient {
+  width: 100%;
+  height: 162px;
+  background-image: linear-gradient(#7d98a1, #1c2321);
 }
 
 /*# sourceMappingURL=styles.css.map */

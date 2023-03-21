@@ -1,6 +1,6 @@
 #About-Section {
   //   background-color: aquamarine;
-  height: $site-height;
+  min-height: $site-height;
   max-width: $site-width;
   background-image: linear-gradient(
     0deg,
@@ -38,4 +38,9 @@
   p {
     font-size: 36px;
   }
+}
+.AboutGradient {
+  width: 100%;
+  height: 162px;
+  background-image: linear-gradient($cadetGray, $eerieBlack);
 }
