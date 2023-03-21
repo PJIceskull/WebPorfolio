@@ -188,30 +188,35 @@ button a {
 
 #About-Section {
   height: 800px;
-  width: 1280px;
+  max-width: 1280px;
   background-image: linear-gradient(0deg, #1c2321 25%, #7d98a1 25%, #7d98a1 50%, #1c2321 50%, #1c2321 75%, #7d98a1 75%, #7d98a1 100%);
   background-size: 80px 80px;
   color: #eef1ef;
+  padding-top: 200px;
 }
 
-.aboutTitle {
+.aboutText {
   background-color: #7d98a1;
-  width: 1280px;
+  width: 100%;
   padding: 50px;
 }
-.aboutTitle h1 {
+.aboutText h1 {
   font-size: 100px;
   font-family: FuturaBook;
   margin-bottom: 10px;
 }
-.aboutTitle hr {
+.aboutText hr {
   width: 540px;
   height: 10px;
   background-color: #eef1ef;
   border-style: none;
-  margin-bottom: 60px;
+  margin-bottom: 50px;
 }
-.aboutTitle p {
+
+.aboutText-Body {
+  max-width: 1180px;
+}
+.aboutText-Body p {
   font-size: 36px;
 }
 
