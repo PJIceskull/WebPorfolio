@@ -187,4 +187,10 @@ button a {
   background-color: rgba(169, 180, 194, 0.6);
 }
 
+#About-Section {
+  background-color: aquamarine;
+  height: 800px;
+  width: 1280px;
+}
+
 /*# sourceMappingURL=styles.css.map */
