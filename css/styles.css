@@ -137,7 +137,6 @@ button a {
 #Home-Section {
   max-width: 1280px;
   height: 800px;
-  background-color: burlywood;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -192,6 +191,7 @@ button a {
   width: 1280px;
   background-image: linear-gradient(0deg, #1c2321 25%, #7d98a1 25%, #7d98a1 50%, #1c2321 50%, #1c2321 75%, #7d98a1 75%, #7d98a1 100%);
   background-size: 80px 80px;
+  color: #eef1ef;
 }
 
 /*# sourceMappingURL=styles.css.map */
