@@ -12,6 +12,29 @@
   }
   .homeText {
     background-color: $eerieBlack;
+    font-family: Helvetica;
+    h1,
+    h3 {
+      color: $cadetGray;
+    }
+    h2,
+    p {
+      color: $powderBlue;
+    }
+    h1 {
+      font-size: 75px;
+      font-weight: bolder;
+    }
+    h2 {
+      font-size: 30px;
+    }
+    h3 {
+      font-size: 30px;
+      font-weight: lighter;
+    }
+    p {
+      font-size: 30px;
+    }
   }
   .homeImg {
     background-image: url(../img/profile_pic.JPEG);

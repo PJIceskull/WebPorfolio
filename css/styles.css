@@ -121,6 +121,29 @@ button a {
 }
 .Home-Wrap .homeText {
   background-color: #1c2321;
+  font-family: Helvetica;
+}
+.Home-Wrap .homeText h1,
+.Home-Wrap .homeText h3 {
+  color: #7d98a1;
+}
+.Home-Wrap .homeText h2,
+.Home-Wrap .homeText p {
+  color: #a9b4c2;
+}
+.Home-Wrap .homeText h1 {
+  font-size: 75px;
+  font-weight: bolder;
+}
+.Home-Wrap .homeText h2 {
+  font-size: 30px;
+}
+.Home-Wrap .homeText h3 {
+  font-size: 30px;
+  font-weight: lighter;
+}
+.Home-Wrap .homeText p {
+  font-size: 30px;
 }
 .Home-Wrap .homeImg {
   background-image: url(../img/profile_pic.JPEG);
