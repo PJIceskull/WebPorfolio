@@ -31,8 +31,11 @@
   }
 }
 .socialIcons {
+  width: 315.5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   font-size: 60px;
-
   a {
     text-decoration: none;
   }
