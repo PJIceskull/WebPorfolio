@@ -247,6 +247,10 @@ button a {
   min-height: 800px;
   max-width: 1280px;
   color: #eef1ef;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
 }
 
 .contactText h1 {

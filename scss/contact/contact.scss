@@ -3,10 +3,10 @@
   min-height: $site-height;
   max-width: $site-width;
   color: $anti-FlashWhite;
-  // display: flex;
-  // align-items: center;
-  // justify-content: space-around;
-  // flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
 }
 .contactText {
   h1 {
