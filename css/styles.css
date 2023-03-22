@@ -253,12 +253,16 @@ button a {
   font-size: 110px;
   font-family: FuturaBook;
   text-transform: uppercase;
-  font-weight: 100;
+  font-weight: 200;
 }
 .contactText hr {
   height: 7px;
   background-color: #eef1ef;
   border-style: none;
+}
+.contactText p {
+  font-size: 32px;
+  font-family: FuturaBook;
 }
 
 /*# sourceMappingURL=styles.css.map */
