@@ -24,3 +24,17 @@ button {
     }
   }
 }
+
+.messageButton {
+  background-color: $payneGray;
+  font-family: FuturaHeavy;
+  font-size: 32px;
+  padding: 20px 28px;
+  &:hover {
+    background-color: $anti-FlashWhite;
+    color: $payneGray;
+    a {
+      color: $payneGray;
+    }
+  }
+}

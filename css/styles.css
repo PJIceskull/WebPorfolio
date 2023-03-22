@@ -133,6 +133,20 @@ button a {
   color: #1c2321;
 }
 
+.messageButton {
+  background-color: #5e6572;
+  font-family: FuturaHeavy;
+  font-size: 32px;
+  padding: 20px 28px;
+}
+.messageButton:hover {
+  background-color: #eef1ef;
+  color: #5e6572;
+}
+.messageButton:hover a {
+  color: #5e6572;
+}
+
 #Home-Section {
   max-width: 1280px;
   min-height: 800px;
@@ -235,6 +249,7 @@ button a {
   background-color: #5e6572;
   min-height: 800px;
   max-width: 1280px;
+  color: #eef1ef;
 }
 
 /*# sourceMappingURL=styles.css.map */
