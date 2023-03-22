@@ -268,6 +268,10 @@ button a {
   font-size: 32px;
   font-family: FuturaBook;
 }
+.contactText h2 {
+  font-family: FuturaHeavy;
+  font-size: 45px;
+}
 
 .socialIcons {
   font-size: 60px;
