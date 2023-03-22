@@ -9,11 +9,13 @@
   flex-direction: column;
 }
 .contactText {
+  margin: 55px 76px 35px;
   h1 {
     font-size: 110px;
     font-family: FuturaBook;
     text-transform: uppercase;
     font-weight: 200;
+    margin-bottom: 0;
   }
   hr {
     // border: 7px solid;
@@ -24,6 +26,7 @@
   p {
     font-size: 32px;
     font-family: FuturaBook;
+    margin-top: 34.5px;
   }
   h2 {
     font-family: FuturaHeavy;
