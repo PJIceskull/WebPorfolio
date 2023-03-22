@@ -12,7 +12,9 @@ nav {
   //   top: 0; /* Position the navbar at the top of the page */
   //   width: 100%; /* Full width */
   font-size: 18px;
+  color: $powderBlue;
   a {
+    color: $powderBlue;
     text-decoration: none;
     font-weight: 520;
     margin-right: 52px;
@@ -30,8 +32,4 @@ nav {
   p {
     margin: 0;
   }
-}
-nav,
-a {
-  color: $powderBlue;
 }
