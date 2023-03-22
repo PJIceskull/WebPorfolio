@@ -249,4 +249,16 @@ button a {
   color: #eef1ef;
 }
 
+.contactText h1 {
+  font-size: 110px;
+  font-family: FuturaBook;
+  text-transform: uppercase;
+  font-weight: 100;
+}
+.contactText hr {
+  height: 7px;
+  background-color: #eef1ef;
+  border-style: none;
+}
+
 /*# sourceMappingURL=styles.css.map */

@@ -3,4 +3,22 @@
   min-height: $site-height;
   max-width: $site-width;
   color: $anti-FlashWhite;
+  // display: flex;
+  // align-items: center;
+  // justify-content: space-around;
+  // flex-direction: column;
+}
+.contactText {
+  h1 {
+    font-size: 110px;
+    font-family: FuturaBook;
+    text-transform: uppercase;
+    font-weight: 100;
+  }
+  hr {
+    // border: 7px solid;
+    height: 7px;
+    background-color: $anti-FlashWhite;
+    border-style: none;
+  }
 }
