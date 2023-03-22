@@ -27,6 +27,21 @@
   }
 }
 .socialIcons {
+  font-size: 60px;
+
+  a {
+    text-decoration: none;
+  }
+  i {
+    color: $anti-FlashWhite;
+    transition-duration: 0.2s;
+    &:hover {
+      color: $eerieBlack;
+    }
+    &:active {
+      color: $powderBlue;
+    }
+  }
 }
 .copyrightText {
   color: $powderBlue;

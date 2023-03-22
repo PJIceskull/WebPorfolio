@@ -265,6 +265,23 @@ button a {
   font-family: FuturaBook;
 }
 
+.socialIcons {
+  font-size: 60px;
+}
+.socialIcons a {
+  text-decoration: none;
+}
+.socialIcons i {
+  color: #eef1ef;
+  transition-duration: 0.2s;
+}
+.socialIcons i:hover {
+  color: #1c2321;
+}
+.socialIcons i:active {
+  color: #a9b4c2;
+}
+
 .copyrightText {
   color: #a9b4c2;
   font-size: 30px;
