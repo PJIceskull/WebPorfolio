@@ -80,8 +80,10 @@ nav {
   justify-content: space-between;
   padding: 0 50px;
   font-size: 18px;
+  color: #a9b4c2;
 }
 nav a {
+  color: #a9b4c2;
   text-decoration: none;
   font-weight: 520;
   margin-right: 52px;
@@ -98,11 +100,6 @@ nav .links {
 }
 nav p {
   margin: 0;
-}
-
-nav,
-a {
-  color: #a9b4c2;
 }
 
 button {
