@@ -259,7 +259,6 @@ button a {
 .websiteSection {
   max-width: 100%;
   height: 400px;
-  background-color: red;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -267,9 +266,24 @@ button a {
 }
 
 .websitePrevBox {
-  background-color: gold;
   height: 100%;
   width: 50%;
+}
+
+.websitePrevPic1,
+.websitePrevPic2 {
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.websitePrevPic1 {
+  background-image: url(../img/websitePics/porfolio_preview.png);
+}
+
+.websitePrevPic2 {
+  background-image: url(../img/websitePics/Eventsy_Preview.png);
 }
 
 #Contact-Section {
