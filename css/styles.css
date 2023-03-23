@@ -59,7 +59,7 @@ a {
 }
 
 .wrapper {
-  max-width: 1280vw;
+  max-width: 1280px;
   min-height: 800px;
   margin: 0 auto;
 }
@@ -70,7 +70,7 @@ a {
 }
 
 nav {
-  max-width: 1280vw;
+  max-width: 1280px;
   height: 63px;
   margin: 0 auto;
   text-transform: uppercase;
@@ -167,7 +167,7 @@ button a {
 }
 
 #Home-Section {
-  max-width: 1280vw;
+  max-width: 1280px;
   min-height: 800px;
   display: flex;
   align-items: center;
@@ -220,7 +220,7 @@ button a {
 
 #About-Section {
   min-height: 800px;
-  max-width: 1280vw;
+  max-width: 1280px;
   background-image: linear-gradient(0deg, #1c2321 25%, #7d98a1 25%, #7d98a1 50%, #1c2321 50%, #1c2321 75%, #7d98a1 75%, #7d98a1 100%);
   background-size: 80px 80px;
   color: #eef1ef;
@@ -261,7 +261,7 @@ button a {
 #Work-Section {
   background-color: #1c2321;
   min-height: 800px;
-  max-width: 1280vw;
+  max-width: 1280px;
 }
 
 .WorkTitle h1 {
@@ -340,7 +340,7 @@ button a {
 #Contact-Section {
   background-color: #5e6572;
   min-height: 800px;
-  max-width: 1280vw;
+  max-width: 1280px;
   color: #eef1ef;
   display: flex;
   align-items: center;
