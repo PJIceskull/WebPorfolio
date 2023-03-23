@@ -150,6 +150,11 @@ button a {
   font-size: 25px;
   font-family: FuturaBook;
 }
+.viewSite a {
+  color: #7d98a1;
+  font-size: 25px;
+  font-family: FuturaMedium;
+}
 
 #Home-Section {
   max-width: 1280px;
