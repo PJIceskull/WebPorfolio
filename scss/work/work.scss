@@ -3,3 +3,17 @@
   min-height: $site-height;
   max-width: $site-width;
 }
+.WorkTitle {
+  h1 {
+    padding-top: 30px;
+    font-family: FuturaBook;
+    font-size: 110px;
+    text-transform: uppercase;
+    color: $anti-FlashWhite;
+  }
+  hr {
+    border-style: none;
+    height: 11px;
+    background-color: $cadetGray;
+  }
+}

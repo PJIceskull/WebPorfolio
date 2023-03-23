@@ -242,6 +242,19 @@ button a {
   max-width: 1280px;
 }
 
+.WorkTitle h1 {
+  padding-top: 30px;
+  font-family: FuturaBook;
+  font-size: 110px;
+  text-transform: uppercase;
+  color: #eef1ef;
+}
+.WorkTitle hr {
+  border-style: none;
+  height: 11px;
+  background-color: #7d98a1;
+}
+
 #Contact-Section {
   background-color: #5e6572;
   min-height: 800px;
