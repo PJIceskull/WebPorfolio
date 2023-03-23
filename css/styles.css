@@ -248,6 +248,7 @@ button a {
   font-size: 110px;
   text-transform: uppercase;
   color: #eef1ef;
+  text-align: center;
 }
 .WorkTitle hr {
   border-style: none;
