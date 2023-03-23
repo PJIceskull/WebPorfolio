@@ -209,13 +209,17 @@ button a {
 }
 
 .homeImg {
-  min-height: 800px;
+  height: 800px;
   width: 50%;
+}
+
+.profilePic {
+  height: 100%;
   background-image: url(../img/profile_pic.JPEG);
   background-size: cover;
-  background-position: bottom;
-  background-blend-mode: luminosity;
+  background-repeat: no-repeat;
   background-color: #a9b4c2;
+  background-blend-mode: luminosity;
 }
 
 #About-Section {
