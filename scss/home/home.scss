@@ -13,9 +13,12 @@
     // max-width: 640px;
     // height: 800px;
     background-color: $eerieBlack;
-    font-family: Helvetica;
     // padding-left: 80px;
     // padding-right: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
     h1,
     h3 {
       color: $cadetGray;

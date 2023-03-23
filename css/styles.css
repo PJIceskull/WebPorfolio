@@ -177,7 +177,10 @@ button a {
   width: 50%;
   min-height: 800px;
   background-color: #1c2321;
-  font-family: Helvetica;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
 }
 #Home-Section .homeText h1,
 #Home-Section .homeText h3 {
