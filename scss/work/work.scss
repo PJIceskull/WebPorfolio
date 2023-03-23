@@ -18,3 +18,18 @@
     background-color: $cadetGray;
   }
 }
+.websiteSection {
+  // max-width: 1280px;
+  max-width: 100%;
+  height: 400px;
+  background-color: red;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 63.5px;
+}
+.websitePrev {
+  background-color: gold;
+  height: 100%;
+  width: 50%;
+}

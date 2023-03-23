@@ -256,6 +256,22 @@ button a {
   background-color: #7d98a1;
 }
 
+.websiteSection {
+  max-width: 100%;
+  height: 400px;
+  background-color: red;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 63.5px;
+}
+
+.websitePrev {
+  background-color: gold;
+  height: 100%;
+  width: 50%;
+}
+
 #Contact-Section {
   background-color: #5e6572;
   min-height: 800px;
