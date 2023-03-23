@@ -32,4 +32,18 @@
   // background-color: gold;
   height: 100%;
   width: 50%;
+  position: relative;
+}
+.aboutSite-Text {
+  height: 100%;
+  width: 100%;
+  // background-color: $anti-FlashWhite;
+  background-color: rgba($anti-FlashWhite, 0.75);
+  position: absolute;
+  top: 0;
+  opacity: 0;
+  transition-duration: 0.3s;
+  &:hover {
+    opacity: 1;
+  }
 }

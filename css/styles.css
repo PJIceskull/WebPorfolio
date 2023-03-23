@@ -268,6 +268,20 @@ button a {
 .websitePrevBox {
   height: 100%;
   width: 50%;
+  position: relative;
+}
+
+.aboutSite-Text {
+  height: 100%;
+  width: 100%;
+  background-color: rgba(238, 241, 239, 0.75);
+  position: absolute;
+  top: 0;
+  opacity: 0;
+  transition-duration: 0.3s;
+}
+.aboutSite-Text:hover {
+  opacity: 1;
 }
 
 .websitePrevPic1,
@@ -276,6 +290,11 @@ button a {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  transition-duration: 0.5s;
+}
+.websitePrevPic1:hover,
+.websitePrevPic2:hover {
+  opacity: 0.5;
 }
 
 .websitePrevPic1 {
