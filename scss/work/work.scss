@@ -50,4 +50,14 @@
   &:hover {
     opacity: 1;
   }
+  h2 {
+    color: $cadetGray;
+    font-size: 45px;
+  }
+  p {
+    font-size: 25px;
+    // color: $payneGray;
+    color: $powderBlue;
+    font-family: FuturaMedium;
+  }
 }

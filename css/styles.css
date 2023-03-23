@@ -294,6 +294,15 @@ button a {
 .aboutSite-Text:hover {
   opacity: 1;
 }
+.aboutSite-Text h2 {
+  color: #7d98a1;
+  font-size: 45px;
+}
+.aboutSite-Text p {
+  font-size: 25px;
+  color: #a9b4c2;
+  font-family: FuturaMedium;
+}
 
 .websitePrevPic1,
 .websitePrevPic2 {
