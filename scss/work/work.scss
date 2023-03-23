@@ -38,7 +38,7 @@
   height: 100%;
   width: 100%;
   // background-color: $anti-FlashWhite;
-  background-color: rgba($anti-FlashWhite, 0.75);
+  background-color: rgba($anti-FlashWhite, 0.85);
   position: absolute;
   top: 0;
   opacity: 0;
@@ -56,8 +56,8 @@
   }
   p {
     font-size: 25px;
-    // color: $payneGray;
-    color: $powderBlue;
+    color: $payneGray;
+    // color: $powderBlue;
     font-family: FuturaMedium;
   }
 }
