@@ -157,6 +157,13 @@ button a {
   font-family: FuturaMedium;
   margin: 17px 30px;
 }
+.viewSite:hover {
+  color: #eef1ef;
+  background-color: #7d98a1;
+}
+.viewSite:hover a {
+  color: #eef1ef;
+}
 
 #Home-Section {
   max-width: 1280px;
@@ -288,7 +295,7 @@ button a {
 .aboutSite-Text {
   height: 100%;
   width: 100%;
-  background-color: rgba(238, 241, 239, 0.75);
+  background-color: rgba(238, 241, 239, 0.85);
   position: absolute;
   top: 0;
   opacity: 0;
@@ -307,7 +314,7 @@ button a {
 }
 .aboutSite-Text p {
   font-size: 25px;
-  color: #a9b4c2;
+  color: #5e6572;
   font-family: FuturaMedium;
 }
 
