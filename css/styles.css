@@ -216,7 +216,7 @@ button a {
   margin-bottom: 10px;
 }
 .aboutText hr {
-  width: 540px;
+  max-width: 540px;
   height: 10px;
   background-color: #eef1ef;
   border-style: none;
