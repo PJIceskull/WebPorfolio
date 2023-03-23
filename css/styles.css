@@ -286,6 +286,10 @@ button a {
   top: 0;
   opacity: 0;
   transition-duration: 0.3s;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
 }
 .aboutSite-Text:hover {
   opacity: 1;
