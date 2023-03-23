@@ -310,14 +310,14 @@ button a {
   opacity: 1;
 }
 .aboutSite-Text h2 {
-  color: #7d98a1;
+  color: #5e6572;
   font-size: 45px;
   margin-top: 80px;
 }
 .aboutSite-Text p {
   font-size: 25px;
-  color: #5e6572;
-  font-family: FuturaMedium;
+  color: #7d98a1;
+  font-family: FuturaBook;
 }
 
 .websitePrevPic1,

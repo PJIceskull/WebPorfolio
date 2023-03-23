@@ -51,14 +51,17 @@
     opacity: 1;
   }
   h2 {
-    color: $cadetGray;
+    // color: $cadetGray;
+    color: $payneGray;
     font-size: 45px;
     margin-top: 80px;
   }
   p {
     font-size: 25px;
-    color: $payneGray;
+    // color: $payneGray;
+    color: $cadetGray;
     // color: $powderBlue;
-    font-family: FuturaMedium;
+    // font-family: FuturaMedium;
+    font-family: FuturaBook;
   }
 }
