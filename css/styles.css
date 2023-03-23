@@ -144,6 +144,13 @@ button a {
   color: #5e6572;
 }
 
+.viewSite {
+  color: #7d98a1;
+  border: 3px solid #7d98a1;
+  font-size: 25px;
+  font-family: FuturaBook;
+}
+
 #Home-Section {
   max-width: 1280px;
   min-height: 800px;
