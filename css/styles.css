@@ -150,6 +150,7 @@ button a {
   height: 68px;
   font-size: 25px;
   font-family: FuturaBook;
+  margin-bottom: 80px;
 }
 .viewSite a {
   color: #7d98a1;
@@ -311,6 +312,7 @@ button a {
 .aboutSite-Text h2 {
   color: #7d98a1;
   font-size: 45px;
+  margin-top: 80px;
 }
 .aboutSite-Text p {
   font-size: 25px;
