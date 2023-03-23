@@ -296,7 +296,7 @@ button a {
 .aboutSite-Text {
   height: 100%;
   width: 100%;
-  background-color: rgba(238, 241, 239, 0.85);
+  background-color: rgba(238, 241, 239, 0.75);
   position: absolute;
   top: 0;
   opacity: 0;
