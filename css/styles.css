@@ -147,6 +147,7 @@ button a {
 .viewSite {
   color: #7d98a1;
   border: 3px solid #7d98a1;
+  height: 68px;
   font-size: 25px;
   font-family: FuturaBook;
 }
@@ -154,6 +155,7 @@ button a {
   color: #7d98a1;
   font-size: 25px;
   font-family: FuturaMedium;
+  margin: 17px 30px;
 }
 
 #Home-Section {

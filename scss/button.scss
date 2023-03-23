@@ -42,7 +42,7 @@ button {
   color: $cadetGray;
   border: 3px solid $cadetGray;
   // width: 160px;
-  // height: 68px;
+  height: 68px;
   font-size: 25px;
   // font-family: FuturaMedium;
   font-family: FuturaBook;
@@ -50,5 +50,6 @@ button {
     color: $cadetGray;
     font-size: 25px;
     font-family: FuturaMedium;
+    margin: 17px 30px;
   }
 }
