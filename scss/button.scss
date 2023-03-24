@@ -17,7 +17,7 @@ button {
   font-size: 26px;
   // font-size: 1.625vw;
   font-weight: bold;
-  margin-bottom: 100px;
+  margin-bottom: 50px;
   // margin-bottom: 6.25vh;
   &:hover {
     background-color: $anti-FlashWhite;
@@ -63,5 +63,11 @@ button {
     a {
       color: $anti-FlashWhite;
     }
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .contactDark {
+    margin-bottom: 15px;
   }
 }
