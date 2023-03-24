@@ -270,14 +270,13 @@ button a {
     width: 100%;
   }
   #Home-Section .homeText h1 {
-    font-size: 54px;
-    margin-left: 45px;
-    margin-right: 45px;
+    font-size: 72px;
+    margin: 0 45px;
+    text-align: center;
   }
   #Home-Section .homeText h2 {
     font-size: 21px;
-    margin-left: 45px;
-    margin-right: 45px;
+    margin: 0 45px;
   }
   #Home-Section .homeText h3 {
     font-size: 21px;
