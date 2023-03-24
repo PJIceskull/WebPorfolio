@@ -71,7 +71,7 @@ a {
 
 nav {
   max-width: 1280px;
-  height: 63px;
+  min-height: 63px;
   margin: 0 auto;
   text-transform: uppercase;
   background-color: #1c2321;
@@ -97,9 +97,6 @@ nav .links {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  display: none;
-  overflow: hidden;
-  transition: max-height 0.2 ease-out;
 }
 nav p {
   margin: 0;
