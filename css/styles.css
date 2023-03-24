@@ -235,6 +235,17 @@ button a {
   width: 50%;
 }
 
+.profilePic {
+  height: 800px;
+  width: 100%;
+  background-image: url(../img/profile_pic.JPEG);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-color: #a9b4c2;
+  background-blend-mode: luminosity;
+}
+
 @media screen and (max-width: 1280px) {
   #Home-Section .homeText h1 {
     font-size: 4.7vw;
