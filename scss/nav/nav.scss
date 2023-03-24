@@ -1,5 +1,6 @@
 nav {
   max-width: $site-width;
+  // max-width: 100%;
   min-height: 63px;
   margin: 0 auto;
   text-transform: uppercase;
@@ -42,5 +43,11 @@ nav {
       color: $eerieBlack;
       background-color: $anti-FlashWhite;
     }
+  }
+}
+@media screen and (min-width: 1280px) {
+  nav {
+    // max-width: 100%;
+    max-width: 1280vw;
   }
 }
