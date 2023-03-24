@@ -28,8 +28,22 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    // Hide Links
+    display: none;
+    overflow: hidden;
+    transition: max-height 0.2 ease-out;
   }
   p {
     margin: 0;
+  }
+  i {
+    font-size: 26px;
+    &:hover {
+      color: $anti-FlashWhite;
+    }
+    &:active {
+      color: $eerieBlack;
+      background-color: $anti-FlashWhite;
+    }
   }
 }
