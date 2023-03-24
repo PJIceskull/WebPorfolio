@@ -54,20 +54,17 @@
   }
 }
 .homeImg {
-  // min-height: $site-height;
-  height: $site-height;
-  // width: 50%;
+  background-color: gold;
+  min-height: $site-height;
   width: 50%;
-  // max-width: 50%;
-  // background-color: rgba($powderBlue, 0.6);
 }
 .profilePic {
-  height: 100%;
+  // height: $site-height;
   // width: 100%;
-  background-image: url(../img/profile_pic.JPEG);
-  background-size: cover;
-  background-repeat: no-repeat;
+  // background-image: url(../img/profile_pic.JPEG);
+  // background-size: cover;
+  // background-repeat: no-repeat;
   // background-position: bottom;
-  background-color: $powderBlue;
-  background-blend-mode: luminosity;
+  // background-color: $powderBlue;
+  // background-blend-mode: luminosity;
 }
