@@ -59,3 +59,22 @@
   font-size: 30px;
   font-family: FuturaBook;
 }
+
+// Media Queries
+@media screen and (max-width: 1280px) {
+  .contactText {
+    h1 {
+      // font-size: 110px;
+      font-size: 6.875vw;
+      // font-size: 11vw;
+    }
+  }
+  @media screen and (max-width: 800px) {
+    .contactText {
+      h1 {
+        // font-size: 50px;
+        font-size: 3.125rem;
+      }
+    }
+  }
+}
