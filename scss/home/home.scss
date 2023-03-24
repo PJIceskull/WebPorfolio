@@ -29,25 +29,31 @@
     }
     h1 {
       // font-size: 75px;
-      // font-size: 4.5rem;
-      font-size: 4.7vw;
+      font-size: 4.6875rem;
+      // font-size: 4.7vw;
       font-family: FuturaExtraBlack;
       margin: 10px 65px 10px 85px;
     }
     h2 {
       // width: 40px;
-      font-size: 30px;
+      // font-size: 30px;
+      font-size: 1.875rem;
+      // font-size: 1.875vw;
       font-family: FuturaMedium;
       margin: 83px 70px 0 85px;
     }
     h3 {
-      font-size: 30px;
+      // font-size: 30px;
+      font-size: 1.875rem;
+      // font-size: 1.875vw;
       font-family: FuturaBook;
       margin-left: 89px;
       margin-right: 99px;
     }
     p {
-      font-size: 27px;
+      // font-size: 27px;
+      font-size: 1.6875rem;
+      // font-size: 1.6875vw;
       //   max-width: 455px;
       margin: 40px 92px;
     }
@@ -67,4 +73,13 @@
 //   // background-position: bottom;
 //   // background-color: $powderBlue;
 //   // background-blend-mode: luminosity;
+// }
+// @media screen and (min-width: 1200px) {
+//   .homeText {
+//     h1 {
+//       // font-size: 75px;
+//       // font-size: 75rem;
+//       font-size: 4.6vw;
+//     }
+//   }
 // }
