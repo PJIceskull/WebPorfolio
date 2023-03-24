@@ -59,7 +59,7 @@ a {
 }
 
 .wrapper {
-  max-width: 1280px;
+  max-width: 1280vw;
   min-height: 800px;
   margin: 0 auto;
 }
@@ -190,7 +190,7 @@ button a {
   }
 }
 #Home-Section {
-  max-width: 1280px;
+  max-width: 1280vw;
   min-height: 800px;
   display: flex;
   align-items: center;
@@ -246,7 +246,7 @@ button a {
   background-image: url(../img/profile_pic.JPEG);
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: bottom;
+  background-position: center;
   background-color: #a9b4c2;
   background-blend-mode: luminosity;
 }
@@ -298,7 +298,7 @@ button a {
 }
 #About-Section {
   min-height: 800px;
-  max-width: 1280px;
+  max-width: 1280vw;
   background-image: linear-gradient(0deg, #1c2321 25%, #7d98a1 25%, #7d98a1 50%, #1c2321 50%, #1c2321 75%, #7d98a1 75%, #7d98a1 100%);
   background-size: 80px 80px;
   color: #eef1ef;
@@ -339,7 +339,7 @@ button a {
 #Work-Section {
   background-color: #1c2321;
   min-height: 800px;
-  max-width: 1280px;
+  max-width: 1280vw;
 }
 
 .WorkTitle h1 {
@@ -443,7 +443,7 @@ button a {
 #Contact-Section {
   background-color: #5e6572;
   min-height: 800px;
-  max-width: 1280px;
+  max-width: 1280vw;
   color: #eef1ef;
   display: flex;
   align-items: center;
