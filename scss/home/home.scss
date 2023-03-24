@@ -104,19 +104,24 @@
         h1 {
           // font-size: 36px;
           font-size: 54px;
+          margin-left: 45px;
+          margin-right: 45px;
         }
         h2 {
           // font-size: 14px;
           font-size: 21px;
-          // margin: 83px 20px;
+          margin-left: 45px;
+          margin-right: 45px;
         }
         h3 {
           // font-size: 14px;
           font-size: 21px;
+          margin: 0 45px;
         }
         p {
           // font-size: 13px;
           font-size: 20px;
+          margin: 15px 45px;
         }
       }
     }
@@ -126,12 +131,3 @@
     }
   }
 }
-// @media screen and (min-width: 1200px) {
-//   .homeText {
-//     h1 {
-//       // font-size: 75px;
-//       // font-size: 75rem;
-//       font-size: 4.6vw;
-//     }
-//   }
-// }
