@@ -115,6 +115,11 @@ nav i:active {
     max-width: 1280vw;
   }
 }
+@media screen and (min-width: 1280px) and (min-width: 800px) {
+  .links {
+    margin-right: 0;
+  }
+}
 button {
   text-transform: uppercase;
   color: #eef1ef;
