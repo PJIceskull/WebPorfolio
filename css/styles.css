@@ -230,6 +230,46 @@ button a {
   width: 50%;
 }
 
+@media screen and (max-width: 1280px) {
+  #Home-Section .homeText h1 {
+    font-size: 4.7vw;
+  }
+  #Home-Section .homeText h2 {
+    font-size: 1.875vw;
+  }
+  #Home-Section .homeText h3 {
+    font-size: 1.875vw;
+  }
+  #Home-Section .homeText p {
+    font-size: 1.6875vw;
+  }
+}
+@media screen and (max-width: 1280px) and (max-width: 800px) {
+  #Home-Section {
+    flex-direction: column-reverse;
+    height: 50%;
+  }
+  #Home-Section .homeText {
+    height: 50%;
+    width: 100%;
+  }
+  #Home-Section .homeText h1 {
+    font-size: 36px;
+  }
+  #Home-Section .homeText h2 {
+    font-size: 14px;
+  }
+  #Home-Section .homeText h3 {
+    font-size: 14px;
+  }
+  #Home-Section .homeText p {
+    font-size: 13px;
+  }
+  .homeImg {
+    height: 50%;
+    width: 100%;
+  }
+}
 #About-Section {
   min-height: 800px;
   max-width: 1280px;

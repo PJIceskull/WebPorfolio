@@ -74,6 +74,53 @@
 //   // background-color: $powderBlue;
 //   // background-blend-mode: luminosity;
 // }
+
+// Media Queries
+@media screen and (max-width: 1280px) {
+  #Home-Section {
+    .homeText {
+      h1 {
+        font-size: 4.7vw;
+      }
+      h2 {
+        font-size: 1.875vw;
+      }
+      h3 {
+        font-size: 1.875vw;
+      }
+      p {
+        font-size: 1.6875vw;
+      }
+    }
+  }
+  @media screen and (max-width: 800px) {
+    #Home-Section {
+      flex-direction: column-reverse;
+      height: 50%;
+
+      .homeText {
+        height: 50%;
+        width: 100%;
+        h1 {
+          font-size: 36px;
+        }
+        h2 {
+          font-size: 14px;
+        }
+        h3 {
+          font-size: 14px;
+        }
+        p {
+          font-size: 13px;
+        }
+      }
+    }
+    .homeImg {
+      height: 50%;
+      width: 100%;
+    }
+  }
+}
 // @media screen and (min-width: 1200px) {
 //   .homeText {
 //     h1 {
