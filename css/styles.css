@@ -65,7 +65,9 @@ a {
 }
 
 nav {
-  max-width: 1280px;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
   min-height: 63px;
   margin: 0 auto;
   text-transform: uppercase;
@@ -76,6 +78,7 @@ nav {
   padding: 0 50px;
   font-size: 18px;
   color: #a9b4c2;
+  z-index: 5;
 }
 nav a {
   color: #a9b4c2;

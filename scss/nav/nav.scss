@@ -1,5 +1,8 @@
 nav {
-  max-width: $site-width;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+  // max-width: $site-width;
   // max-width: 100%;
   min-height: 63px;
   margin: 0 auto;
@@ -9,11 +12,9 @@ nav {
   align-items: center;
   justify-content: space-between;
   padding: 0 50px;
-  //   position: fixed; /* Set the navbar to fixed position */
-  //   top: 0; /* Position the navbar at the top of the page */
-  //   width: 100%; /* Full width */
   font-size: 18px;
   color: $powderBlue;
+  z-index: 5;
   a {
     color: $powderBlue;
     text-decoration: none;
