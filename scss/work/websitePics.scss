@@ -1,19 +1,17 @@
-.websitePrevPic1,
-.websitePrevPic2,
-.websitePrevPic3 {
+.websitePrevPic {
   height: 100%;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   transition-duration: 0.5s;
 }
-.websitePrevPic1 {
+.oldPortfolioPic {
   background-image: url(../img/websitePics/porfolio_preview.png);
 }
-.websitePrevPic2 {
+.eventsyPic {
   background-image: url(../img/websitePics/Eventsy_Preview.png);
 }
-.websitePrevPic3 {
+.dancepunkPic {
   background-image: url(../img/websitePics/Ecommerce_Preview.png);
   background-position: top;
 }
