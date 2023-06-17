@@ -1,5 +1,6 @@
 .websitePrevPic1,
-.websitePrevPic2 {
+.websitePrevPic2,
+.websitePrevPic3 {
   height: 100%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -11,4 +12,8 @@
 }
 .websitePrevPic2 {
   background-image: url(../img/websitePics/Eventsy_Preview.png);
+}
+.websitePrevPic3 {
+  background-image: url(../img/websitePics/Ecommerce_Preview.png);
+  background-position: top;
 }
