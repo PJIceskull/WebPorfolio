@@ -406,7 +406,7 @@ button a {
     font-size: 3.125rem;
   }
 }
-@media screen and (max-width: 1280px) and (max-width: 500px) {
+@media screen and (max-width: 1280px) and (max-width: 540px) {
   .websiteSection {
     display: flex;
     flex-direction: column;
