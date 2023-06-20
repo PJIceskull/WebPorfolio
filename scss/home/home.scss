@@ -27,8 +27,6 @@
     }
     h1 {
       // font-size: 75px;
-      // font-size: 4.6875rem;
-      // font-size: 4.7vw;
       // font-size: clamp(4rem, 4.6875vw, 4.75rem);
       font-size: clamp(4rem, 4.69vw, 4.8rem);
       font-family: FuturaExtraBlack;
@@ -36,16 +34,12 @@
     }
     h2 {
       // font-size: 30px;
-      // font-size: 1.875rem;
-      // font-size: 1.875vw;
       font-size: clamp(1.3125rem, 1.875vw, 2rem);
       font-family: FuturaMedium;
       margin: 83px 70px 0 85px;
     }
     h3 {
       // font-size: 30px;
-      // font-size: 1.875rem;
-      // font-size: 1.875vw;
       font-size: clamp(1.3125rem, 1.875vw, 1.875rem);
       font-family: FuturaBook;
       margin-left: 89px;
@@ -53,10 +47,7 @@
     }
     p {
       // font-size: 27px;
-      // font-size: 1.6875rem;
-      // font-size: 1.6875vw;
       font-size: clamp(1.25rem, 1.6875vw, 1.7em);
-      // margin: 40px 92px;
       margin: 20px 92px 40px;
     }
   }
