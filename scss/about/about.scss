@@ -21,7 +21,8 @@
   width: 100%;
   padding: 50px;
   h1 {
-    font-size: 100px;
+    // font-size: 100px;
+    font-size: clamp(3.125rem, 6.25vw, 6.25rem);
     font-family: FuturaBook;
     margin-bottom: 10px;
   }
@@ -37,7 +38,8 @@
   // max-width: 1180px;
   max-width: 1180vw;
   p {
-    font-size: 36px;
+    // font-size: 36px;
+    font-size: clamp(1.25rem, 2.25vw, 2.25rem);
   }
 }
 .AboutGradient {

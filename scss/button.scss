@@ -32,7 +32,8 @@ button {
 .messageButton {
   background-color: $payneGray;
   font-family: FuturaHeavy;
-  font-size: 32px;
+  // font-size: 32px;
+  font-size: clamp(1.5rem, 1.75vw, 2rem);
   padding: 20px 28px;
   &:hover {
     background-color: $anti-FlashWhite;
