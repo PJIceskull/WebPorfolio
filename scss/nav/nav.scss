@@ -51,9 +51,22 @@ nav {
     // max-width: 100%;
     max-width: 1280vw;
   }
-  @media screen and (min-width: 800px) {
+  // @media screen and (min-width: 800px) {
+  //   .links {
+  //     // margin-right: 0;
+  //   }
+  // }
+}
+@media screen and (max-width: 575px) {
+  nav {
     .links {
-      margin-right: 0;
+      flex-direction: column;
+      align-items: flex-start;
+      margin-bottom: 15px;
+      // display: none;
+      a {
+        margin-top: 15px;
+      }
     }
   }
 }
