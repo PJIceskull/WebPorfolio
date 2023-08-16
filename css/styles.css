@@ -439,6 +439,10 @@ button a {
   background-position: top;
 }
 
+.qrCardPic {
+  background-image: url(../img/websitePics/QR_Card_Preview.png);
+}
+
 #Contact-Section {
   background-color: #5e6572;
   min-height: 800px;
