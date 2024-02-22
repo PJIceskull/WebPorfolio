@@ -1,6 +1,6 @@
 #Contact-Section {
   background-color: $payneGray;
-  min-height: $site-height;
+  min-height: $site-height - 75px;
   max-width: $site-width;
   color: $anti-FlashWhite;
   display: flex;
@@ -12,7 +12,8 @@
   margin: 55px 76px 25px;
   h1 {
     font-size: 110px;
-    font-size: clamp(3.125rem, 6.875vw, 6.875rem);
+    // font-size: clamp(3.125rem, 6.875vw, 6.875rem);
+    font-size: $h1-section;
     font-family: FuturaBook;
     text-transform: uppercase;
     font-weight: 200;
