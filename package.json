@@ -1,6 +1,6 @@
 {
   "devDependencies": {
-    "sass": "^1.59.3"
+    "sass": "^1.71.1"
   },
   "name": "webporfolio",
   "description": "This is a portfolio that shows off my work and explain who I am.",
@@ -25,6 +25,7 @@
     "to-regex-range": "^5.0.1"
   },
   "scripts": {
+    "server": "live-server",
     "compile:sass": "sass scss/styles.scss css/styles.css -w"
   },
   "keywords": [],
